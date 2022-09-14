@@ -2,136 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- non so cos'è ma la lascio -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- 1. STO INCLUDENDO LO STILE. L'ho copiato dal sito di boostrap, niente di che:
-        sarebbe un collegamento al file locale nella cartella css-->
-    <link rel="stylesheet" href="css/bootstrap.min.css" >
+
     <link rel="stylesheet" href="style.css" >
-    <title>Document</title>
+    <title>Arancia</title>
 </head>
 <body>
-    
-<!-- 2. copio incollo dalla documentazione di bootstrap un 'navbar'-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-<div class="container"><!--questo serve a tenere le navbar allinterno di uun contenitore piu piccolo, -fluid per tutto schermo-->
-    <a class="navbar-brand" href="#">Arancia!</a><!-- 'brand' -->
-    
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <!--questo button compare quando il sito 'collassa' per mobile-->
-        <span class="navbar-toggler-icon"></span> <!-- questo sono quelle tre lineette-->
-             <!--magari si potrà sotituire con un svg, chi lo sa-->
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <!--collapse: in questo div si fa un elenco che vale sia per mobile che per desktop-->
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-     <!--form, ovvero spazio per scrivere e tasto cerca-->
-     <!--
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-     -->
-    </div>
-</div>
-  </nav>
-<div class="container">
-    <br>
-    <a class="lead">
-            In quel momento apparve la volpe.
-            "Buon giorno", disse la volpe.
-            "Buon giorno", rispose gentilmente il piccolo principe, voltandosi: ma non vide nessuno.
-            "Sono qui", disse la voce, "sotto al melo..."
-            "Chi sei?" domando' il piccolo principe, "sei molto carino..."
-            "Sono una volpe", disse la volpe.
-            "Vieni a giocare con me", le propose il piccolo principe, sono cosi' triste..."
-            "Non posso giocare con te", disse la volpe, "non sono addomestica".
-            "Ah! scusa", fece il piccolo principe.
-            Ma dopo un momento di riflessione soggiunse:
-            "Che cosa vuol dire addomesticare?"
-            "Non sei di queste parti, tu", disse la volpe, "che cosa cerchi?"
-            "Cerco gli uomini", disse il piccolo principe.
-            "Che cosa vuol dire addomesticare?"
-            "Gli uomini" disse la volpe, "hanno dei fucili e cacciano. E' molto noioso! Allevano anche delle galline. E' il loro solo interesse. Tu cerchi delle galline?"
-            "No", disse il piccolo principe. "Cerco degli amici. Che cosa vuol dire "addomesticare?"
-            "E' una cosa da molto dimenticata. Vuol dire creare dei legami..."
-            "Creare dei legami?"
-            "Certo", disse la volpe. "Tu, fino ad ora, per me, non sei che un ragazzino uguale a centomila ragazzini. E non ho bisogno di te. E neppure tu hai bisogno di me. Io non sono per te che una volpe uguale a centomila volpi. Ma se tu mi addomestichi, noi avremo bisogno l'uno dell'altro. Tu sarai per me unico al mondo, e io saro' per te unica al mondo".
-            "Comincio a capire" disse il piccolo principe. "C'e' un fiore... credo che mi abbia addomesticato..."
-            "E' possibile", disse la volpe. "Capita di tutto sulla Terra..."
-            "Oh! non e' sulla Terra", disse il piccolo principe.
-            La volpe sembro' perplessa:
-            "Su un altro pianeta?"
-            "Si".
-            "Ci sono dei cacciatori su questo pianeta?"
-            "No".
-            "Questo mi interessa. E delle galline?"
-            "No".
-            "Non c'e' niente di perfetto", sospiro' la volpe. Ma la volpe ritorno' alla sua idea:
-            "La mia vita e' monotona. Io do la caccia alle galline, e gli uomini danno la caccia a me. Tutte le galline si assomigliano, e tutti gli uomini si assomigliano. E io mi annoio percio'. Ma se tu mi addomestichi, la mia vita sara' illuminata. Conoscero' un rumore di passi che sara' diverso da tutti gli altri. Gli altri passi mi fanno nascondere sotto terra. Il tuo, mi fara' uscire dalla tana, come una musica. E poi, guarda! Vedi, laggiu' in fondo, dei campi di grano? Io non mangio il pane e il grano, per me e' inutile. I campi di grano non mi ricordano nulla. E questo e' triste! Ma tu hai dei capelli color dell'oro. Allora sara' meraviglioso quando mi avrai addomesticato. Il grano, che e' dorato, mi fara' pensare a te. E amero' il rumore del vento nel grano..."
-            La volpe tacque e guardo' a lungo il piccolo principe:
-            "Per favore... addomesticami", disse.
-            "Volentieri", disse il piccolo principe, "ma non ho molto tempo, pero'. Ho da scoprire degli amici, e da conoscere molte cose".
-            "Non ci conoscono che le cose che si addomesticano", disse la volpe. "Gli uomini non hanno piu' tempo per conoscere nulla. Comprano dai mercanti le cose gia' fatte. Ma siccome non esistono mercanti di amici, gli uomini non hanno piu' amici. Se tu vuoi un amico addomesticami!"
-            "Che cosa bisogna fare?" domando' il piccolo principe.
-            "Bisogna essere molto pazienti", rispose la volpe. "In principio tu ti sederai un po' lontano da me, cosi', nell'erba. Io ti guardero' con la coda dell'occhio e tu non dirai nulla. Le parole sono una fonte di malintesi. Ma ogni giorno tu potrai sederti un po' piu' vicino..."
-            Il piccolo principe ritorno' l'indomani.
-            "Sarebbe stato meglio ritornare alla stessa ora", disse la volpe.
-            "Se tu vieni, per esempio, tutti i pomeriggi alle quattro, dalle tre io comincero' ad essere felice. Col passare dell'ora aumentera' la mia felicita'. Quando saranno le quattro, incomincero' ad agitarmi e ad inquietarmi; scopriro' il prezzo della felicita'! Ma se tu vieni non si sa quando, io non sapro' mai a che ora prepararmi il cuore... Ci vogliono i riti".
-            "Che cos'e' un rito?" disse il piccolo principe.
-            "Anche questa e' una cosa da tempo dimenticata", disse la volpe. "E' quello che fa un giorno diverso dagli altri giorni, un'ora dalle altre ore. C'e' un rito, per esempio, presso i miei cacciatori. Il giovedi ballano con le ragazze del villaggio. Allora il giovedi e' un giorno meraviglioso! Io mi spingo sino alla vigna. Se i cacciatori ballassero in un giorno qualsiasi, i giorni si assomiglierebbero tutti, e non avrei mai vacanza".
-            Cosi' il piccolo principe addomestico' la volpe.
-            E quando l'ora della partenza fu vicina:
-            "Ah!" disse la volpe, "... piangero'".
-            "La colpa e' tua", disse il piccolo principe, "io, non ti volevo far del male, ma tu hai voluto che ti addomesticassi..."
-            "E' vero", disse la volpe.
-            "Ma piangerai!" disse il piccolo principe.
-            "E' certo", disse la volpe.
-            "Ma allora che ci guadagni?"
-            "Ci guadagno", disse la volpe, "il colore del grano".
-            Poi soggiunse:
-            "Va' a rivedere le rose. Capirai che la tua e' unica al mondo. Quando ritornerai a dirmi addio, ti regalero' un segreto".
-            Il piccolo principe se ne ando' a rivedere le rose.
-            "Voi non siete per niente simili alla mia rosa, voi non siete ancora niente", disse. "Nessuno vi ha addomesticato, e voi non avete addomesticato nessuno. Voi siete come era la mia volpe. Non era che una volpe uguale a centomila altre. Ma ne ho fatto il mio amico ed ora e' per me unica al mondo".
-            E le rose erano a disagio.
-            "Voi siete belle, ma siete vuote", disse ancora. "Non si puo' morire per voi. Certamente, un qualsiasi passante crederebbe che la mia rosa vi rassomigli, ma lei, lei sola, e' piu' importante di tutte voi, perche' e' lei che ho innaffiata. Perche' e' lei che ho messa sotto la campana di vetro. Perche' e' lei che ho riparata col paravento. Perche' su di lei ho uccisi i bruchi (salvo i due o tre per le farfalle). Perche' e' lei che ho ascoltato lamentarsi o vantarsi, o anche qualche volta tacere. Perche' e' la mia rosa".
-            E ritorno' dalla volpe.
-            "Addio", disse.
-            "Addio", disse la volpe. "Ecco il mio segreto. E' molto semplice: non si vede bene che col cuore. L'essenziale e' invisibile agli occhi".
-            "L'essenziale e' invisibile agli occhi", ripete' il piccolo principe, per ricordarselo.
-            "E' il tempo che tu hai perduto per la tua rosa che ha fatto la tua rosa cosi' importante".
-            "E' il tempo che ho perduto per la mia rosa..." sussurro' il piccolo principe per ricordarselo.
-            "Gli uomini hanno dimenticato questa verita'. Ma tu non la devi dimenticare. Tu diventi responsabile per sempre di quello che hai addomesticato. Tu sei responsabile della tua rosa..."
-            "Io sono responsabile della mia rosa..." ripete' il piccolo principe per ricordarselo.
-    </a>
-</div>
 
-
-    <!-- 1. questo invece non è in locale, va messo prima del js, (sennò non funziona)-->
-    <script src="js/jquery.min.js"></script>
-    <!-- 1. IDEM PER IL JS, ma prima della fine del body, (perché?)-->
-    <script src="js/bootstrap.min.js" ></script>
 </body>
 </html>
